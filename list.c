@@ -50,7 +50,7 @@ void *firstList(List *list)
 void *nextList(List *list)
 {
     Node *aux = list->head;
-    if (aux->next = NULL)
+    if (aux->next == NULL)
         return NULL;
 
     return aux->next;
