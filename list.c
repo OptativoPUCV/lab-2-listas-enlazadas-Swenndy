@@ -41,9 +41,7 @@ List *createList()
 
 void *firstList(List *list)
 {
-    Node *aux = list->head;
-
-    return (aux->data);
+    return NULL;
 }
 
 void *nextList(List *list)
