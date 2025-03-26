@@ -53,7 +53,7 @@ void *nextList(List *list)
     if (aux->next == NULL)
         return NULL;
 
-    return aux->next;
+    return aux->next->data;
 }
 
 void *lastList(List *list)
