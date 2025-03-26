@@ -30,3 +30,16 @@ Wed Mar 26 12:01:21 -03 2025:
  tests:  1|5
 total_score: 10/70
 59fbb1a
+Wed Mar 26 12:06:07 -03 2025: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+./list.c:44:18: error: format specifies type 'int' but the argument has type 'void *' [-Werror,-Wformat]
+    printf("%d", list->head->data);
+            ~~   ^~~~~~~~~~~~~~~~
+./list.c:45:1: error: non-void function does not return a value [-Werror,-Wreturn-type]
+}
+^
+2 errors generated.
+Compilation failed
+45b67a1
