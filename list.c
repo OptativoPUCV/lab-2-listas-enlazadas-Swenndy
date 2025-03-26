@@ -49,11 +49,11 @@ void *firstList(List *list)
 
 void *nextList(List *list)
 {
-    Node *aux = list->head;
-    list->current = list->head->next;
-    if (aux->next == NULL || list->current->next == NULL)
+    if (list == NULL || list->current == NULL || list->current->next == NULL)
         return NULL;
-    return aux->next->data;
+
+    list->current = list->current->next;
+    return list->current->data;
 }
 
 void *lastList(List *list)

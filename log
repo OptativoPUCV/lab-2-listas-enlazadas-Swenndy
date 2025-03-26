@@ -113,3 +113,9 @@ Wed Mar 26 12:18:58 -03 2025:
  tests:  3|5
 total_score: 15/70
 d9cf78e
+Wed Mar 26 12:22:17 -03 2025: 
+ list.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ tests:  5|4
+total_score: 25/70
+37d08b0
