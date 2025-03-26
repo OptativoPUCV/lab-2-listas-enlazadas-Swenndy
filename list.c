@@ -41,7 +41,7 @@ List *createList()
 
 void *firstList(List *list)
 {
-    if (list->head == NULL)
+    if (list->head == NULL || list == NULL)
         return NULL;
 
     return (list->head->data);
