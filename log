@@ -66,3 +66,21 @@ Wed Mar 26 12:11:57 -03 2025:
  tests:  2|5
 total_score: 15/70
 92d518d
+Wed Mar 26 12:13:56 -03 2025: 
+ list.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+./list.c:53:19: error: using the result of an assignment as a condition without parentheses [-Werror,-Wparentheses]
+    if (aux->next = NULL)
+        ~~~~~~~~~~^~~~~~
+./list.c:53:19: note: place parentheses around the assignment to silence this warning
+    if (aux->next = NULL)
+                  ^
+        (               )
+./list.c:53:19: note: use '==' to turn this assignment into an equality comparison
+    if (aux->next = NULL)
+                  ^
+                  ==
+1 error generated.
+Compilation failed
+c01b51d
