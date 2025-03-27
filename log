@@ -143,3 +143,13 @@ Wed Mar 26 12:50:22 -03 2025:
  tests:  9|3
 total_score: 35/70
 b67057f
+Thu Mar 27 10:15:27 -03 2025: 
+ list.c | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+In file included from test.c:5:
+./list.c:84:9: error: void function 'pushFront' should not return a value [-Wreturn-type]
+        return NULL;
+        ^      ~~~~
+1 error generated.
+Compilation failed
+7d46ecc
