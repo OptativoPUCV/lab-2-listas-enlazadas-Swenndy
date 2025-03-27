@@ -80,6 +80,7 @@ void pushFront(List *list, void *data)
 {
     Node *nuevo;
     nuevo->data = data;
+    list->current = list->head;
     if (list == NULL || list->current == NULL)
         return NULL;
 

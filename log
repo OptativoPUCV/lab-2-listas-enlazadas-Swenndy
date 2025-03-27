@@ -153,3 +153,13 @@ In file included from test.c:5:
 1 error generated.
 Compilation failed
 7d46ecc
+Thu Mar 27 10:16:10 -03 2025: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+./list.c:85:9: error: void function 'pushFront' should not return a value [-Wreturn-type]
+        return NULL;
+        ^      ~~~~
+1 error generated.
+Compilation failed
+a575681
