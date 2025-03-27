@@ -82,7 +82,7 @@ void pushFront(List *list, void *data)
     nuevo->data = data;
     list->current = list->head;
     if (list == NULL || list->current == NULL)
-        return NULL;
+        return;
 
     while (list->current->next != NULL)
     {

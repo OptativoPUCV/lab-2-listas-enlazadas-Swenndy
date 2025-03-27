@@ -163,3 +163,17 @@ In file included from test.c:5:
 1 error generated.
 Compilation failed
 a575681
+Thu Mar 27 10:16:36 -03 2025: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+./list.c:82:5: error: variable 'nuevo' is uninitialized when used here [-Werror,-Wuninitialized]
+    nuevo->data = data;
+    ^~~~~
+./list.c:81:16: note: initialize the variable 'nuevo' to silence this warning
+    Node *nuevo;
+               ^
+                = NULL
+1 error generated.
+Compilation failed
+7cad797
