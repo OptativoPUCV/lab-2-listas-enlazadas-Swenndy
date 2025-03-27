@@ -225,3 +225,10 @@ ld: can't write output file: a.out
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 Compilation failed
 a95ffdc
+Thu Mar 27 10:27:03 -03 2025: 
+ list.c | 12 ------------
+ 1 file changed, 12 deletions(-)
+ld: can't write output file: a.out
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+Compilation failed
+ed002a8
