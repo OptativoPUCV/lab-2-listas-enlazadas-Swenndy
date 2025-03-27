@@ -78,8 +78,6 @@ void *prevList(List *list)
 
 void pushFront(List *list, void *data)
 {
-    if (list == NULL)
-        return;
 
     Node *nuevo = (Node *)malloc(sizeof(Node));
 
