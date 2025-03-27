@@ -187,3 +187,13 @@ Thu Mar 27 10:17:57 -03 2025:
  1 file changed, 2 deletions(-)
  tests:  0|0
 0b1a893
+Thu Mar 27 10:18:57 -03 2025: 
+ list.c | 9 ---------
+ 1 file changed, 9 deletions(-)
+In file included from test.c:5:
+./list.c:81:11: error: unused variable 'nuevo' [-Werror,-Wunused-variable]
+    Node *nuevo = NULL;
+          ^
+1 error generated.
+Compilation failed
+857e637

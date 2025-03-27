@@ -79,15 +79,6 @@ void *prevList(List *list)
 void pushFront(List *list, void *data)
 {
     Node *nuevo = NULL;
-    nuevo->data = data;
-    list->current = list->head;
-
-    while (list->current->next != NULL)
-    {
-        list->current = list->current->next;
-    }
-    list->current->next = nuevo->prev;
-    nuevo->prev = list->current->next;
 }
 
 void pushBack(List *list, void *data)
