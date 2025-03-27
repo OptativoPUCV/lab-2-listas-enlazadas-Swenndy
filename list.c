@@ -83,7 +83,7 @@ void pushFront(List *list, void *data)
     nuevo->prev = NULL;
     nuevo->next = list->head;
 
-    if (list->head != NULL)
+    if (list->head)
         list->head->prev = nuevo;
     else
         list->tail = nuevo;
