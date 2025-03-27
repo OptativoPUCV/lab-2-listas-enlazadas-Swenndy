@@ -84,11 +84,12 @@ void pushFront(List *list, void *data)
     {
         list->head = nuevo;
         list->tail = nuevo;
+        nuevo->next = NULL;
     }
     else
     {
-        list->head->prev = nuevo->next;
-        nuevo->next = list->head->prev;
+        nuevo->next = list->head;
+        list->head->prev = nuevo;
         list->head = nuevo;
     }
 }

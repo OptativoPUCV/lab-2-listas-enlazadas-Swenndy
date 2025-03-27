@@ -355,3 +355,9 @@ Thu Mar 27 11:49:34 -03 2025:
  tests:  9|3
 total_score: 35/70
 334af58
+Thu Mar 27 11:54:28 -03 2025: 
+ list.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+ tests:  10|2
+total_score: 45/70
+f1fe0bf
