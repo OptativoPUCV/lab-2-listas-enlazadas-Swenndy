@@ -294,3 +294,10 @@ Thu Mar 27 11:06:05 -03 2025:
  tests:  9|3
 total_score: 35/70
 6fb5c73
+Thu Mar 27 11:07:00 -03 2025: 
+ list.c | 3 +++
+ 1 file changed, 3 insertions(+)
+ld: can't write output file: a.out
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+Compilation failed
+92325a1
